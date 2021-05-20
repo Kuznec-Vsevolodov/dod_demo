@@ -1,7 +1,7 @@
 <template>
     <div class="col-md-8">
         <div class="invite-content-text">
-            <h1 class="invite-title">Начни играть сейчас!</h1>
+            <h1 class="invite-title">Найди себе собеседника</h1>
             <p class="invite-text col-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
@@ -19,21 +19,7 @@
                     </div>
                 </div>
                 <button class="join-button" @click="sendToSingQueue">
-                    Играть
-                </button>
-            </div>
-            <div class="game-card col-6">
-                <img class="team-image" src="/images/command-game1.png" alt="">
-                <div class="join-block">
-                    <div class="card-description">
-                        <h4 class="card-title">Командная игра</h4>
-                        <p class="card-description-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                        </p>
-                    </div>
-                </div>
-                <button class="join-button" @click="sendToSingQueue">
-                    Играть
+                    Начать
                 </button>
             </div>
         </div>
